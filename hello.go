@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/GraftonJ/stringutil"
+)
 
 func main() {
-	fmt.Print("hello, world\nIt's Go time!")
+	fmt.Println(stringutil.Reverse("!oG ,olleH"))
 }
